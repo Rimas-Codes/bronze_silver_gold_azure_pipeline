@@ -2,8 +2,6 @@
 
 An end-to-end data engineering pipeline that ingests daily global earthquake data from the USGS API, processes it using a structured Medallion Architecture in Azure Databricks, and exposes the final dataset to Power BI for visualization and monitoring.
 
-This project is built based on the architectural patterns highlighted in this [YouTube Tutorial](https://youtu.be/lyp8rlpJc3k?si=dK_isJudbhyBH9c9).
-
 ---
 
 ## 🚀 Architecture Overview
