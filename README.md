@@ -83,5 +83,5 @@ Ensure you pass the parameters into your Databricks activity block using valid s
 The processed files residing in the **Gold Container** (`earthquake_events_gold/`) are consumed downstream via Power BI. Because the files are stored as enriched parquet tables with predefined taxonomy classifications (`sig_class`, `country_code`), they can easily be hooked up to native mapping components, line charts tracking temporal earthquake frequency trends, and volume KPIs.
 
 <p align="center">
-  <img src="Docs/bsg%20powerbi.jpeg" alt="Architecture Diagram" width="500"/>
+  <img src="Docs/bsg%20powerbi.jpeg" alt="Architecture Diagram" width="700"/>
 </p>
