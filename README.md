@@ -9,7 +9,7 @@ An end-to-end data engineering pipeline that ingests daily global earthquake dat
 The data pipeline utilizes the **Medallion Architecture** (Bronze ➡️ Silver ➡️ Gold) within an Azure Data Lake Storage (ADLS Gen2) ecosystem, orchestrated using Azure Data Factory (ADF):
 
 <p align="center">
-  <img src="Docs/bsg%20block%20diagram.png" alt="Architecture Diagram" width="400"/>
+  <img src="Docs/bsg%20block%20diagram.png" alt="Architecture Diagram" width="500"/>
 </p>
 
 
