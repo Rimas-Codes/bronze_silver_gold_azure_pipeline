@@ -8,7 +8,10 @@ An end-to-end data engineering pipeline that ingests daily global earthquake dat
 
 The data pipeline utilizes the **Medallion Architecture** (Bronze ➡️ Silver ➡️ Gold) within an Azure Data Lake Storage (ADLS Gen2) ecosystem, orchestrated using Azure Data Factory (ADF):
 
-<img src="Docs/bsg%20block%20diagram.png" alt="Architecture Diagram" width="600"/>
+<p align="center">
+  <img src="Docs/bsg%20block%20diagram.png" alt="Architecture Diagram" width="400"/>
+</p>
+
 
 1. **Bronze Layer**: Raw GeoJSON data requested dynamically from the USGS earthquake API for specific date ranges and saved directly to the data lake as raw `.json` objects.
 2. **Silver Layer**: The nested JSON properties are parsed and flattened into schemas, Unix epoch timestamps are converted to native Spark timestamps, and standard null-handling protocols are applied. Output is saved as efficient `.parquet` files.
